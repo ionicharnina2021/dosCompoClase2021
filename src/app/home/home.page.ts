@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  valor;
+  seleccion;
+  console=["nes","n64","ps","genesis","saturn","snes"];
   constructor() {}
-
+  cargar(){
+    console.log("no se de momento");
+    
+  }
 }
